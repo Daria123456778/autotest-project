@@ -16,7 +16,7 @@ def test_commit_activity_tooltip(driver):
     driver.get(url)
     time.sleep(3)  # Ждём загрузки графика
 
-    # Находим первый столбик на графике (селектор может отличаться, если что — поправь)
+    # Находим первый столбик на графике 
     bars = driver.find_elements(By.CSS_SELECTOR, ".js-graph-bar")
     assert bars, "График не найден!"
 
