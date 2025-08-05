@@ -1,3 +1,10 @@
 pytest
 selenium
 webdriver-manager
+allure-pytest
+pytest-check
+flake8
+black
+python-dotenv
+requests
+pytest-xdist

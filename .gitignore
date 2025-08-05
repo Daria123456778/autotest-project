@@ -1,2 +1,34 @@
+# Игнорировать виртуальное окружение
+.venv/
+venv/
+env/
+
+# Файлы и папки Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+
+# Системные и IDE-файлы
+.DS_Store
+.idea/
+*.iml
+
+# Логи
+logs/
+*.log
+
+# Результаты allure и покрытие
+allure-results/
+allure-report/
+coverage.xml
+htmlcov/
+
+# Кэш pytest
+.pytest_cache/
+
+# mypy/mypy cache
+.mypy_cache/
+
+# Папка output, если создаётся временные/выходные данные
+output/

@@ -1,0 +1,5 @@
+base_url: "https://github.com"
+default_timeout: 15
+browser: "chrome"
+headless: true
+log_level: "INFO"
